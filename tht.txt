@@ -1,0 +1,52 @@
+    <div class="con1">
+        <div class="side0">
+            <h3 align="center"><u>Subscrib On YouTube</u></h3>
+            <a href="https://www.youtube.com/channel/UCeDeaDD8dpdMT2gO3VHY1JQ" target="_blank"><img src="./img/youtube.png" alt="Youtube" width="60px" height="40px"></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odio eveniet ipsum vero eius nam nesciunt? Placeat ex libero accusamus maxime obcaecati a voluptatum dolor laudantium dolorum! Quidem, officiis ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum maiores voluptatem pariatur cupiditate exercitationem ut, optio amet odio placeat incidunt a quas fuga distinctio vero officia? Ratione, autem minus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi odio eveniet ipsum vero eius nam nesciunt? Placeat ex libero accusamus maxime obcaecati a voluptatum dolor laudantium dolorum! Quidem, officiis ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum maiores voluptatem pariatur cupiditate exercitationem ut, optio amet odio placeat incidunt a quas fuga distinctio vero officia? Ratione, autem minus.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="con2">
+        <div class="blog1">
+            <h3><u><b>Arduino playlist</b></u></h3><br>
+            <img src="./img/arduinol.png" width="150" height="150" alt="Arduino"><br>
+            <P>Arduino යනු නිදහස් මූලාශ්‍ර පරිගණක දෘඩාංග හා මෘදුකාංග සමාගමක්ය.</P><br>
+            <a href="./arduino.html"><button>Learn More</button></a>
+        </div>
+        <div class="blog2">
+            <h3><u><b>Termux playlist</b></u></h3><br>
+            <img src="./img/Termux_2.png" width="150" height="150" alt="Arduino"><br>
+            <P>Arduino යනු නිදහස් මූලාශ්‍ර පරිගණක දෘඩාංග හා මෘදුකාංග සමාගමක්ය.</P><br>
+            <a href="./arduino.html"><button>Learn More</button></a>
+        </div>
+        <div class="blog3">
+            <h3><u><b>Song playlist</b></u></h3><br>
+            <img src="./img/apple+music.png" width="150" height="150" alt="Arduino"><br>
+            <P>Arduino යනු නිදහස් මූලාශ්‍ර පරිගණක දෘඩාංග හා මෘදුකාංග සමාගමක්ය.</P><br>
+            <a href="./arduino.html"><button>Learn More</button></a>
+        </div>
+        <div class="blog4">
+            <h3><u><b>Gamming playlist</b></u></h3><br>
+            <img src="./img/vaibhav-verma-game-logo.jpg" width="150" height="150" alt="Arduino"><br>
+            <P>Arduino යනු නිදහස් මූලාශ්‍ර පරිගණක දෘඩාංග හා මෘදුකාංග සමාගමක්ය.</P><br>
+            <a href="./arduino.html"><button>Learn More</button></a>
+    </div>                
+
+
+
+
+
+
+
+
+
+    
