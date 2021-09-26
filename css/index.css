@@ -133,9 +133,13 @@ body {
     transition-delay: 0.100ms;
 }
 
-@media (max-width: 863px) {
+@media (max-width: 863px){
     .con2 img {
         width: 80px;
         height: 80px;
     }
+}
+.oi
+{
+    text-align: center;
 }
