@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    background-color: rgb(61, 61, 61);
+    background: #cecece;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,7 +42,13 @@ body {
 }
 
 .con1 {
-    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    font-family: Inconsolata, sans-serif;
+    /* box-sizing: border-box;
     border-radius: 10px;
     margin-left: 50px;
     margin-right: 50px;
@@ -48,16 +56,26 @@ body {
     text-align: center;
     border: 3px solid aqua;
     color: aliceblue;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
+    transition: 0.8s ease-in-out;
 }
-
-.con1 img {
+.con1:hover
+{
+    box-shadow: 10px 10px 10px rgba(94, 0, 86, 0.25);
+    transition: 0.5s ease-in-out;
+}
+.con1 .side0 h3
+{
+    color: rgb(30, 29, 37);
+}
+.con1 img 
+{
     margin-top: 5px;
 }
 
 .con1 img:hover {
     width: 65px;
-    height: 45px;
+    /* height: 45px; */
 }
 
 .con2 .blog1 {
