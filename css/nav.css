@@ -18,6 +18,9 @@ nav h1 {
 }
 
 nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     float: right;
     margin-right: 25px;
     list-style: none;
@@ -32,13 +35,16 @@ nav ul li {
 nav ul li a {
     position: relative;
     padding: 5px 0;
-    color: rgb(255, 0, 0);
+    color: rgba(0, 232, 66, 0.904);
     font-size: 18px;
     text-decoration: none;
+    transition: 0.5s ease-in-out;
 }
 
 nav ul li a:hover {
-    color: rgba(0, 232, 66, 0.904);
+    color: hotpink;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline solid hotpink;
 }
 
 label #s1,

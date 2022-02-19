@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
+* 
+{
     padding: 0px;
     margin: 0px;
 }
-
-body {
+body 
+{
+    font-family: 'Poppins', sans-serif;
     background: #cecece;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
-
-.intro {
+.intro 
+{
+    font-family: 'Varela Round', sans-serif;
     background-image: url(/img/gb1.jpg);
     background-size: cover;
     background-position: center center;
@@ -22,8 +25,8 @@ body {
     height: 1000px;
     
 }
-
-.intro-text h3 {
+.intro-text h3 
+{
     font-size: 60px;
     color: white;
     text-align: center;
@@ -31,8 +34,8 @@ body {
     height: 100%;
     margin-top: 300px;
 }
-
-.intro-text h4 {
+.intro-text h4 
+{
     font-size: 40px;
     color: white;
     text-align: center;
@@ -40,14 +43,15 @@ body {
     height: 100%;
     margin-top: 25px;
 }
-
-.con1 {
+.con1 
+{
     background: #ffffff;
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
     padding-top: 10px;
-    font-family: Inconsolata, sans-serif;
+    margin-bottom: 10px;
+    font-family: 'Inconsolata', monospace;
     /* box-sizing: border-box;
     border-radius: 10px;
     margin-left: 50px;
@@ -72,90 +76,81 @@ body {
 {
     margin-top: 5px;
 }
-
 .con1 img:hover {
     width: 65px;
     /* height: 45px; */
 }
-
-.con2 .blog1 {
-    float: left;
-    width: 20%;
-    border: 3px white solid;
-    text-align: center;
-    height: 400px;
-    margin: 25px;
-    padding: 5px;
-    box-sizing: border-box;
+.con2
+{
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #ff000000;
+}
+.con2 a
+{
+    text-decoration: none;
+}
+.con2 a .blog
+{
     border-radius: 10px;
-}
-
-.con2 .blog2 {
-    float: left;
-    width: 20%;
-    border: 3px white solid;
-    text-align: center;
-    height: 400px;
-    margin: 25px;
-    padding: 5px;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.con2 .blog3 {
-    float: left;
-    width: 20%;
-    border: 3px white solid;
-    text-align: center;
-    height: 400px;
-    margin: 25px;
-    padding: 5px;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.con2 .blog4 {
-    float: left;
-    width: 20%;
-    border: 3px white solid;
-    text-align: center;
-    height: 400px;
-    margin: 25px;
-    padding: 5px;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.con2 p {
-    color: aquamarine;
-}
-
-.con2 h3 {
-    color: aqua;
-}
-
-.con2 button {
-    font-family: cursive;
-    padding: 5px;
-    background-color: rgb(61, 61, 61);
-    border: 2px solid sandybrown;
-    color: rgb(17, 255, 0);
-}
-
-.con2 button:hover {
+    position: relative;
+    width: 900px;
+    height: 200px;
+    background: #ffffff;
     cursor: pointer;
-    border: white dashed 2px;
-    background-color: rgb(17, 255, 0);
-    color: rgb(61, 61, 61);
-    box-shadow: 0 0 10px rgb(17, 255, 0), 0 0 40px rgb(17, 255, 0), 0 0 80px rgb(17, 255, 0);
-    transition-delay: 0.100ms;
+    transition: 0.5s ease-in-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.025);
 }
-
-@media (max-width: 863px){
-    .con2 img {
-        width: 80px;
-        height: 80px;
-    }
+.con2 a .blog:hover
+{
+    box-shadow: 10px 10px 10px rgba(2, 0, 94, 0.25);
+    transition: 0.5s ease-in-out;
+}
+.con2 a .blog .content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.con2 a .blog img
+{
+    position: relative;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con2 a .blog .content .img img
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+    border-radius: 100px;
+    /* transition: 1s ease-in-out; */
+}
+.con2 a .blog .content .text
+{
+    margin-left: 15%;
+}
+.con2 a .blog .content .text h3
+{
+    font-weight: 500;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.con2 a .blog .content .text p
+{
+    font-family: Inconsolata, sans-serif;
+    font-size: 0.9em;
+    color: rgb(97, 97, 97);
+    transition: 0.5s ease-in-out;
 }
 .oi
 {

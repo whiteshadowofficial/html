@@ -75,7 +75,7 @@ body
 .content .dtls h2 span
 {
     font-size: 0.7em;
-    color: #03a9f4;
+    color: #17f403;
     font-weight: 400;
 }
 .sci
@@ -107,6 +107,6 @@ body
 }
 .sci li a:hover
 {
-    background: #20b8ff;
+    background: #cc00ff;
     color: #fff;
 }
