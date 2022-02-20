@@ -133,6 +133,7 @@ body
     height: 200px;
     margin-left: 20%;
     border-radius: 100px;
+    /* box-shadow: 5px 20px 20px rgba(36, 36, 36, 0.651); */
     /* transition: 1s ease-in-out; */
 }
 .con2 a .blog .content .text
